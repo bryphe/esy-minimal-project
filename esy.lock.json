@@ -1,0 +1,26 @@
+{
+  "hash": "415f2ff900f63d768196fc42eb3f06db",
+  "root": "esy-minimal-project@path:.",
+  "node": {
+    "ocaml@github:esy-ocaml/ocaml#6aacc05": {
+      "record": {
+        "name": "ocaml",
+        "version": "github:esy-ocaml/ocaml#6aacc05",
+        "source": "github:esy-ocaml/ocaml#6aacc05",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    },
+    "esy-minimal-project@path:.": {
+      "record": {
+        "name": "esy-minimal-project",
+        "version": "path:.",
+        "source": "path:.",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "ocaml@github:esy-ocaml/ocaml#6aacc05" ]
+    }
+  }
+}
