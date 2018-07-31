@@ -1,30 +1,18 @@
 {
-  "name": "esy-reason-project",
+  "name": "esy-minimal-project",
   "version": "0.1.0",
-  "description": "Reason workflow with Esy",
+  "description": "Minimal project",
   "license": "MIT",
   "esy": {
     "build": [
       [
-        "refmterr",
-        "jbuilder",
-        "build"
+        "ocamlopt",
+        "--version"
       ]
-    ],
-    "install": [
-      "esy-installer"
     ],
     "buildsInSource": "_build"
   },
-  "resolutions": {
-    "**/@opam/lwt": "4.0.0"
-  },
   "dependencies": {
-    "@esy-ocaml/esy-installer": "^0.0.0",
-    "@opam/jbuilder": "^1.0.0-beta14",
-    "@opam/lambda-term": "^1.11.0",
-    "@esy-ocaml/reason": "^3.0.0",
-    "refmterr": "^3.0.4"
   },
   "peerDependencies": {
     "ocaml": "esy-ocaml/ocaml#6aacc05"
